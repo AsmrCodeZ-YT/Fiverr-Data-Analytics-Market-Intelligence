@@ -2,6 +2,8 @@
 
 End-to-end Databricks project that transforms scraped Fiverr data-analytics gig data into curated Delta tables and dashboard-ready SQL.
 
+![image](./src/fiverr-etl-databricks.png)
+
 ## Components
 
 - **`Fiverr Market Intelligence Feature Engineering.ipynb`** (PySpark): ingests raw data from Unity Catalog Volumes, validates/normalizes/flattens it, classifies service families, and engineers demand, pricing/package, sampled buyer/review, seller/competition, and technology features; writes curated Delta tables.
